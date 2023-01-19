@@ -1,0 +1,46 @@
+{
+  "name": "js-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple nodejs boilerplate to get started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qammarkhurshid/node-js-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qammarkhurshid/node-js-boilerplate/issues"
+  },
+  "homepage": "https://github.com/qammarkhurshid/node-js-boilerplate#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^8.3.0",
+    "helmet": "^5.1.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.1",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "mongoose-paginate-v2": "^1.7.1",
+    "morgan": "^1.10.0",
+    "uuidv4": "^6.2.13"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-align-assignments": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
