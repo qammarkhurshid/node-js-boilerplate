@@ -6,7 +6,7 @@ import helmet from 'helmet';
 import { expressjwt } from 'express-jwt';
 import cors from 'cors';
 
-import router from './routers/index.js';
+import router from './routes/index.js';
 
 dotenv.config();
 
